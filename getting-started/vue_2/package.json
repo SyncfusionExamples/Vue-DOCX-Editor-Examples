@@ -8,8 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@syncfusion/ej2-tailwind3-theme": "^34.2.3",
-    "@syncfusion/ej2-vue-documenteditor": "^33.2.6",
+    "@syncfusion/ej2-tailwind3-theme": "^34.2.4",
+    "@syncfusion/ej2-vue-documenteditor": "^34.2.4",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
