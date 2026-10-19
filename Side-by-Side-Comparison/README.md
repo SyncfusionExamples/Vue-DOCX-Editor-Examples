@@ -85,6 +85,17 @@ http://localhost:5173
 
 ---
 
+## Demo
+
+<p align="center">
+  <img
+    src="images/compare-documents-demo-vue-docx-editor.gif"
+    alt="Vue DOCX Editor Compare Documents Demo"
+    width="1000" />
+</p>
+
+---
+
 # Project Workflow
 
 The application follows the workflow below:
