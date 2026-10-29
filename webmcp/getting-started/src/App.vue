@@ -9,8 +9,7 @@
       :enableWebMcp="true"
       toolbarMode="Ribbon"
       :webMcpSettings="webMcpSettings"
-      :created="created"
-      :beforeWebMcpToolExecute="beforeWebMcpToolExecute">
+      :created="created">
     </ejs-documenteditorcontainer>
   </div>
 </template>
@@ -31,25 +30,14 @@ const serviceUrl =
 const height = '100%';
 const width = '100%';
 
-const documentEditorSettings = {
-  showRuler: true,
-  showBookmarks: true,
-  showHiddenMarks: true
-};
-
 const webMcpSettings = {
   name: 'container'
 };
-
-let webMcpTools = [];
 
 provide('DocumentEditorContainer', [Toolbar, Ribbon]);
 
 const created = () => {
   const documentEditorContainer = container.value.ej2Instances;
-
-  // Get the registered WebMCP tools
-  webMcpTools = documentEditorContainer.getWebMcpTools();
 
   // Set document name
   documentEditorContainer.documentEditor.documentName = 'WebMCP Tool Demo';
