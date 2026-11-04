@@ -3,7 +3,7 @@
     <ejs-documenteditorcontainer
       ref="container1"
       :serviceUrl="serviceUrl"
-      height="600px"
+      height="100%"
       width="50%"
       :enableToolbar="true"
       :enableWebMcp="true"
@@ -14,7 +14,7 @@
     <ejs-documenteditorcontainer
       ref="container2"
       :serviceUrl="serviceUrl"
-      height="600px"
+      height="100%"
       width="50%"
       :enableToolbar="true"
       :enableWebMcp="true"
