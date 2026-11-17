@@ -1,0 +1,23 @@
+{
+  "name": "vue-docx-editor-compare-documents",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-tailwind3-theme": "~35.1.40",
+    "@syncfusion/ej2-vue-buttons": "~35.1.37",
+    "@syncfusion/ej2-vue-documenteditor": "~35.1.40",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4",
+    "vue-tsc": "^3.3.13"
+  }
+}
