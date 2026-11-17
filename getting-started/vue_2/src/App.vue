@@ -3,13 +3,14 @@
     <ejs-documenteditorcontainer
       height="590px"
       :serviceUrl="serviceUrl"
-      :enableToolbar="true">
+      :enableToolbar="true"
+      :toolbarMode="'Ribbon'">
     </ejs-documenteditorcontainer>
   </div>
 </template>
 
 <script>
-import { DocumentEditorContainerComponent, Toolbar } from '@syncfusion/ej2-vue-documenteditor';
+import { DocumentEditorContainerComponent, Toolbar, Ribbon } from '@syncfusion/ej2-vue-documenteditor';
 
 export default {
   name: "App",
@@ -27,7 +28,7 @@ export default {
 
   provide: {
     // Inject required modules.
-    DocumentEditorContainer: [Toolbar]
+    DocumentEditorContainer: [Toolbar, Ribbon]
   }
 };
 </script>

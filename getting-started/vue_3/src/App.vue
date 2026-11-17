@@ -2,18 +2,19 @@
   <ejs-documenteditorcontainer 
    height="590px"
    :serviceUrl="serviceUrl" 
-   :enableToolbar="true"> 
+   :enableToolbar="true"
+   :toolbarMode="'Ribbon'"> 
   </ejs-documenteditorcontainer>
 </template>
 
 <script setup>
   import { provide } from 'vue';
-  import { DocumentEditorContainerComponent as EjsDocumenteditorcontainer, Toolbar } from '@syncfusion/ej2-vue-documenteditor';
+  import { DocumentEditorContainerComponent as EjsDocumenteditorcontainer, Toolbar, Ribbon } from '@syncfusion/ej2-vue-documenteditor';
   
   // Use the following service URL only for demo purposes
   const serviceUrl = 'https://document.syncfusion.com/web-services/docx-editor/api/documenteditor/';
 
-  provide('DocumentEditorContainer', [Toolbar]);
+  provide('DocumentEditorContainer', [Toolbar, Ribbon]);
 </script>
 
 <style>
