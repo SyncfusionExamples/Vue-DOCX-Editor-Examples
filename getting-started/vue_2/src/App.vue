@@ -4,7 +4,7 @@
       height="590px"
       :serviceUrl="serviceUrl"
       :enableToolbar="true"
-      toolbarMode="Ribbon">
+      :toolbarMode="'Ribbon'">
     </ejs-documenteditorcontainer>
   </div>
 </template>
